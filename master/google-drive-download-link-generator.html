@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>صانع روابط التحميل لجوجل دريف</title>
+<link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet'/>
+<link rel="stylesheet" type="text/css" href="https://rawgit.com/abdelalilebbihi/font-abd/master/styleconvert.css">
+<link href="https://cdn.rawgit.com/abdelalilebbihi/techabdou/fe375e69/abdou-neo.css">
+</head>
+<body>
+
+<div id="page_content">
+<h1>
+صانع روابط التحميل لجوجل دريف</h1>
+<h2>
+بواسطة <a href="http://www.abdoutech.com/" title="عبدو تكنولوجي">عبدو تكنولوجي</a></h2>
+<div class="container">
+<div class="row">
+<form>
+<div class="form-group">
+<h3>
+        <label class="example" for="driveID"><b>مثال لمعرف جوجل دريف:</b>
+        </label></h3>
+رابط نشر جوجل دريف: <span class="ex-text">https://drive.google.com/file/d/</span><b>jjhj93a73iqk025snm3aqrivkemab8se</b><span class="ex-text">/view?usp=sharing</span></div>
+</form>
+</div>
+</div>
+</div>
+<input class="form-control" id="driveID" placeholder="ضع معرف ملف هنا" type="text" />
+        
+      
+      <br />
+<div class="get">
+<button class="btn btn-primary" id="get-button" onclick="getLink()" type="submit">إضغط للحصول على رابط التحميل</button>
+      </div>
+<div id="container">
+<h3>
+<b>النتيجة:</b></h3>
+<div data-placement="top" data-toggle="tooltip" id="link_container" title="إضغط على CTRL + C">
+</div>
+<button class="btn btn-danger get-another" onclick="window.location.href=window.location.href" type="button">الحصول على رابط اخر</button>
+      </div>
+<div class="footer">
+الحقوق محفوظة لعبدو تكنولوجي
+
+
+  </div>
+
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
+<script type='text/javascript' src='http://rawgit.com/abdelalilebbihi/techabdou/master/download-link-generator2.js'></script>
+</body>
+</html>
